@@ -11,7 +11,6 @@ while(gold === bomb){
 //Do this when you click a box
 const treasure = (box) => {
     if(playing === false){
-        alert("click to restart game")
         return
     } else{
     switch(box){
@@ -46,5 +45,4 @@ const restart = () => {
     for(let i=0;i<9;i++){
         document.getElementById(i).innerHTML="x"
     }
-    alert("Try again")
 }
