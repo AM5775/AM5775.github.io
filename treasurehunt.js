@@ -25,7 +25,7 @@ const treasure = (box) => {
         case gold:
             playing = false
             wins++
-            
+            document.getElementById("wins").innerHTML = `Wins=${wins}`
             document.getElementById(box).innerHTML = "🥇"
             alert("You win.")
             break
